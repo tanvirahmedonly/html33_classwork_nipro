@@ -1,0 +1,85 @@
+/* font face  */
+@font-face {
+    font-family: "roboto-regular";
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto-medium";
+    src: url(../fonts/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "roboto-bold";
+    src: url(../fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "lato-regular";
+    src: url(../fonts/lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "lato-medium";
+    src: url(../fonts/lato/Lato-Medium.ttf);
+}
+
+@font-face {
+    font-family: "lato-bold";
+    src: url(../fonts/lato/Lato-Bold.ttf);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto-regular;
+    font-size: 16px;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    color: #8e8e8e;
+}
+
+
+
+/* common css */
+
+.c_line {
+    margin: 0 auto;
+    width: 2px;
+    height: 50px;
+    background: #333333;
+}
+
+.c_title {
+    margin-top: 30px;
+    font-family: lato-regular;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333 !important;
+}
+
+.c_button .c_btn {
+    font-family: roboto-medium;
+    font-family: 16px;
+    background: white;
+    padding: 12px 28px;
+    letter-spacing: 1px;
+    color: #333333;
+    border-radius: 0;
+    border: 1px solid #333333;
+}
+
+.c_button .c_btn i {
+    margin-left: 10px;
+}
+
+/* .c_button .c_btn:hover {
+    color: #333333;
+    border: 1px solid #333333;
+} */
+
+.c_margin {
+    margin-top: 100px;
+}
